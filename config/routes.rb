@@ -1,4 +1,17 @@
 SecondApp::Application.routes.draw do
+
+  resources :users
+  get "users/new"
+  match '/get_started' => 'users#new', via: :get
+  get "pages/home"
+  get "pages/features"
+  get "pages/advantages"
+  get "pages/news"
+  get "pages/about"
+  get "pages/contact"
+  get "pages/try"
+
+  root :to => 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

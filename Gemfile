@@ -4,16 +4,17 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 gem 'sqlite3'
 
-group :development do
-    gem 'rspec-rails', '2.0.1'
+group :test, :development do
+    gem 'rspec-rails', '~> 2.8'
 end
 
 group :test do
-    gem 'rspec', '2.0.1'
     gem 'webrat', '0.7.1'
 end
 
+#gem 'activesupport', '~> 3.0' 
 
+#gem 'railties', '~> 3.0.0'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3-ruby', '1.3.1', :require => 'sqlite3'
 
@@ -30,7 +31,7 @@ end
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-#gem 'jquery-rails'
+gem 'jquery-rails', "~> 2.3.0"
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 #gem 'turbolinks'
