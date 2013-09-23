@@ -1,0 +1,30 @@
+.container {
+      width: 1050px;
+      }
+
+
+/* Navigation bar */
+
+header nav {
+      float: right;
+      }
+
+header nav ul {
+       margin-right: 200px;
+       }
+header nav ul li {
+      list-style-type: none;
+      display: inline-block;
+      }
+
+header nav ul li a {
+      text-decoration: none;
+      padding-right: 25px;
+      padding-left: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: grey;
+      border-top-left-radius:10px;
+      border-top-right-radius:10px;
+      }
+

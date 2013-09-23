@@ -4,6 +4,7 @@ class PagesController < ApplicationController
   end
 
   def features
+     @title = "Features"
   end
 
   def advantages

@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
-gem 'sqlite3'
-
+gem "ruby-mysql"
+gem "mysql2"
 group :test, :development do
     gem 'rspec-rails', '~> 2.8'
 end
@@ -11,6 +11,9 @@ end
 group :test do
     gem 'webrat', '0.7.1'
 end
+
+
+gem 'yaml_db'
 
 #gem 'activesupport', '~> 3.0' 
 
