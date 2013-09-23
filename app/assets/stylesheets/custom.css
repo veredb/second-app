@@ -56,8 +56,9 @@ footer nav {
       }
 
 footer nav ul {
+      position: fixed;
       margin-top: 400px; 
-      margin-right: 200px;
+      margin-left: -550px;
        }
 footer nav ul li {
       list-style-type: none;
