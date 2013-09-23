@@ -1,16 +1,15 @@
 .container {
-      width: 1050px;
+      width: 960px;
       }
 
 
-/* Navigation bar */
+/* header Navigation bar */
 
 header nav {
       float: right;
       }
 
 header nav ul {
-       margin-right: 200px;
        }
 header nav ul li {
       list-style-type: none;
@@ -28,3 +27,46 @@ header nav ul li a {
       border-top-right-radius:10px;
       }
 
+
+.content {
+      width: 960px;
+      }
+
+body  {
+      background-color:#e0ffff;
+      }  
+
+p     {
+      background-color:#b0c4be;
+      }
+
+h1    { 
+      background-color:#6495ed;
+      }
+
+
+      
+/* footer Navigation bar */
+
+footer nav {
+      float: right;
+      }
+
+footer nav ul {
+       }
+footer nav ul li {
+      list-style-type: none;
+      display: inline-block;
+      }
+
+footer nav ul li a{
+      text-decoration: none;
+      padding-right: 25px;
+      padding-left: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: grey;
+      border-top-left-radius:10px;
+      border-top-right-radius:10px;
+      }
+ 

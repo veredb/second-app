@@ -1,39 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <%= stylesheet_link_tag 'custom', :media => 'screen' %>
-
   <section class="container">
-      <header>
-         <nav>
-            <ul>
-
-             <li><%= link_to "Get Started", get_started_path %></li>
-             <li><%= link_to "home", pages_home_path %></li>
-             <li><%= link_to "features", pages_features_path %></li>
-             <li><%= link_to "advantages", pages_advantages_path %></li>
-             <li><%= link_to "news", pages_news_path %></li>
-             <li><%= link_to "about", pages_about_path %></li>
-             <li><%= link_to "contact", pages_contact_path %></li>
-             <li><%= link_to "try", pages_try_path %></li>
-
-            </ul>
-         </nav>
-      </header>
-      <% yield %>
-  </section>
-  <title>SecondApp | <%= @title %></title>
-  <%= csrf_meta_tag %>
+<head>
+         <title><%= @title %></title>
+         <%= csrf_meta_tag %>
+         <%= stylesheet_link_tag 'custom', :media => 'screen' %>
 </head>
 <body>
 
-     <footer>
-     </footer>
-       <%= yield %>
+         <section class="container">
+             <%= render 'layouts/header' %>
+                 <section class="content">
+                     <%= yield %>
+                 </section> 
+             <%= render 'layouts/footer' %>
+         </section>
 
 </body>
-
-
-
-
+  </section>
 </html>
