@@ -8,15 +8,19 @@ class PagesController < ApplicationController
   end
 
   def advantages
+     @title = "advantages"
   end
 
   def news
+     @title = "news"
   end
 
   def about
+     @title = "about"
   end
 
   def contact
+     @title = "contact"
   end
 
   def try

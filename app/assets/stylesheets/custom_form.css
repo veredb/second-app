@@ -1,0 +1,17 @@
+.form_container {
+                   background-color: #ffffff;
+                   padding-left: 200px;
+                }
+
+.name_field     {
+                   width: 960px;
+                   height: 20px;
+                   margin-left: -424px;
+                   
+                }
+                 
+.field1         {
+                   float: right;
+                   margin-right: 50px;
+                }
+ 

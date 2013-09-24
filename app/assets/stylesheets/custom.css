@@ -1,17 +1,26 @@
 .container {
-      margin-top: 60px;
+      margin-top: -22px;
+      margin-left: -4px;
       width: 960px;
       }
 
 
 /* header Navigation bar */
 
+header .logo {
+      float: right;
+      margin-right: 780px;
+      margin-bottom: -22px;
+      }
+
 header nav {
       float: right;
       }
 
 header nav ul {
-       margin-top: -30px;
+       margin-top: -10px;
+       margin-left: -80px
+       
        }
 header nav ul li {
       list-style-type: none;
@@ -20,7 +29,7 @@ header nav ul li {
 
 header nav ul li a {
       text-decoration: none;
-      padding-right: 25px;
+      padding-right: 20px;
       padding-left: 25px;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -45,9 +54,12 @@ p     {
 h1    { 
       padding-right: -20px; 
       background-color:#6495ed;
+      margin-top: 20px;
       }
 
-
+h2    {
+      background-color: #ffffff;
+      }
       
 /* footer Navigation bar */
 
@@ -57,7 +69,7 @@ footer nav {
 
 footer nav ul {
       position: fixed;
-      margin-top: 400px; 
+      margin-top: 180px; 
       margin-left: -550px;
        }
 footer nav ul li {
