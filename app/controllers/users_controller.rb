@@ -1,22 +1,19 @@
 class UsersController < ApplicationController
 
   def create
-
       @user = User.create(user_params)
-    #  @user = User.new(params[:user])
       if @user.save
          redirect_to @user
          flash[:success] = "Thanks for registering. You'll be contacted soon!"
       else
-         @title = "Sign up"
-#         flash[:failure] = "A problem accured!"
+         @title = "sign_up"
          render 'new'
       end
   end      
 
   def new
+     @title = "sign_up"
      @user = User.new
-     @title = "Sign up"
   end
 
 

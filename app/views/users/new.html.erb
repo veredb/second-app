@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>Sign up</title>
-   </head>
-   <body>
+      <title>sign_up</title>
 
       <%= stylesheet_link_tag 'custom_form', :media => 'screen' %>
       
-      <h1>Sign up</h1>
+      <h1>sign_up</h1>
   <section class="form_container"
       
       <%= form_for(@user) do |f| %>
@@ -31,7 +26,7 @@
           <%= f.label :last %><br />
           <%= f.text_field :last %><br />
           </div>
-         </section>
+       </section>
 
           <div class="field2">
           <%= f.label :email %><br />
@@ -45,7 +40,7 @@
 
           <div class="field4">
           <%= f.label :textbox %><br />
-          <%= f.text_area :textbox, :size=>"66" %><br />
+          <%= f.text_area :textbox, :size=>"40" %><br />
           </div>
 
           <div class="field">
@@ -53,11 +48,6 @@
           <%= f.text_field :status %><br />
           </div>
 
-          <div class="field">
-          <%= f.submit "Submit" %>
-          </div>
+          <%= f.submit :submit %>
       <% end %>
-    </section>
-   </body>
-</html>
-
+  </section>

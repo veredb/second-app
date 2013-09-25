@@ -1,6 +1,10 @@
+
 .form_container {
-                   background-color: #ffffff;
-                   padding-left: 200px;
+                   background-color: #d3d3d3;
+                   padding-left: 50px;
+                   padding-right: 50px;
+                   padding-top: 30px;
+                   padding-bottom: 30px;
                 }
 
 .name_field     {
@@ -15,3 +19,9 @@
                    margin-right: 50px;
                 }
  
+.submit_button  {
+                   background-color: #696969
+                   width: 100%
+                }
+
+

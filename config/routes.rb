@@ -2,7 +2,7 @@ SecondApp::Application.routes.draw do
 
   resources :users
   get "users/new"
-  match '/get_started' => 'users#new', via: :get
+  match '/sign_up' => 'users#new', via: [:post, :get]
   get "pages/home"
   get "pages/features"
   get "pages/advantages"
