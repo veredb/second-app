@@ -12,20 +12,21 @@
           </div>
         <section class="name_field">
 
-          <div class="field1">
-          <%= f.label :first %><br />
-          <%= f.text_field :name %>
+         <div class="field1">
+          <%= f.label :last %><br />
+          <%= f.text_field :last %><br />
           </div>
-                     
+
           <div class="field1">
           <%= f.label :middle %><br />
           <%= f.text_field :middle %>
           </div>
 
           <div class="field1">
-          <%= f.label :last %><br />
-          <%= f.text_field :last %><br />
+          <%= f.label :first %><br />
+          <%= f.text_field :name %>
           </div>
+
        </section>
 
           <div class="field2">
@@ -43,10 +44,9 @@
           <%= f.text_area :textbox, :size=>"40" %><br />
           </div>
 
-          <div class="field">
+          <div class="field5">
           <%= f.label :status %><br />
           <%= f.text_field :status %><br />
-          </div>
 
           <%= f.submit "submit" %>
       <% end %>

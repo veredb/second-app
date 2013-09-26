@@ -1,7 +1,7 @@
 <%= stylesheet_link_tag 'custom_show', :media => 'screen' %>
-
+<h1>User show page</h1>
 <section class="show_container">
     
-
-     <p class="user_show" ><%= @user.last %>,<%= @user.name %>, <%= @user.email %></p>
+     <h2>Hello, <%= @user.name %>, Thank you for contacting us. We will contact you soon...</h2>
+     <p class="user_show" ><h3 class="h3">Please review the following detailes</h3><h4 class="h4"><%= @user.name %><%= @user.last %>, email: <%= @user.email %>, phone:  <%= @user.phone %></h4></p>
 </section>
