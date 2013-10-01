@@ -1,9 +1,14 @@
-
 .container {
-      margin-top: -22px;
+      margin-top: -8px;
       margin-left: -4px;
       width: 960px;
       }
+
+
+.header_contain {
+                float: right;
+                background-color:#6495ed;
+                }
 
 
 /* header Navigation bar */
@@ -12,11 +17,12 @@
 header .logo {
       float: right;
       margin-right: 780px;
-      margin-bottom: -22px;
+      margin-bottom: -21px;
       }
 
 header nav {
       float: right;
+       margin-bottom: -5px;
       }
 
 header nav ul {
@@ -50,17 +56,26 @@ body  {
       }  
 
 p     {
+      float: right;
       background-color:#b0c4be;
+      margin-top: 20px;
+      margin-right: 600px;
+      padding: 50px;
       }
 
 h1    { 
-      padding-right: -20px; 
+/*      padding-right: -20px; */
       background-color:#6495ed;
-      margin-top: 20px;
+/*      margin-top: 20px;*/
       }
 
 .h1   {
-      
+      float: right;
+      margin-right: 800px;
+      padding: 8px;
+      padding-right: 50px;
+      padding-left: 50px;
+      font-family:Georgia, "Times New Roman", Times, serif;
       }
 
 h2    {
@@ -75,7 +90,7 @@ footer nav {
 
 footer nav ul {
       margin-top: 200px; 
-      margin-left: -300px;
+      margin-left: 300px;
        }
 footer nav ul li {
       list-style-type: none;
