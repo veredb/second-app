@@ -26,6 +26,6 @@ class User < ActiveRecord::Base
           :length       => { :minimum => 10, :maximum => 30 }
  
 
-  validates :status, :presence => true,
-                   :format   => { :with => status_regex }
+#  validates :status, :presence => true,
+#                   :format   => { :with => status_regex }
 end

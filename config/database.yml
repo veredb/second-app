@@ -32,8 +32,8 @@ development:
   reconnect: false
   database: second_app_development
   pool: 5
-  username: veredbauer
-  password: iloveshlomo
+  username: root
+  password: 
   socket: /tmp/mysql.sock
 test:
   adapter: mysql2
@@ -41,8 +41,8 @@ test:
   reconnect: false
   database: second_app_test
   pool: 5
-  username: veredbauer
-  password: iloveshlomo
+  username: root
+  password: 
   socket:  /tmp/mysql.sock  
 
 production:
@@ -51,6 +51,6 @@ production:
   reconnect: false
   database: second_app_production
   pool: 5
-  username: veredbauer
-  password: iloveshlomo
+  username: root
+  password:
   socket: /tmp/mysql.sock
